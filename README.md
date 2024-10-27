@@ -177,6 +177,7 @@ Contributions are welcome! Please:
 
 ## Acknowledgments
 
+- **[Markdown 2 PDF Blog by jdhao.github.io](https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/)**
 - **[Pandoc](https://pandoc.org/)**: Universal document converter.
 - **[LaTeX Project](https://www.latex-project.org/)**: High-quality typesetting system.
 - **[Docker](https://www.docker.com/)**: Containerization platform.
