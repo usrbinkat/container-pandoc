@@ -1,0 +1,15 @@
+#!/bin/bash -x
+
+file_name="$(echo $1 | sed 's/\.md//')"
+echo "INFO >> Converting file to pdf: ${file_name}.md > ${file_name}.pdf"
+
+pandoc ${file_name}.md \
+-o ${file_name}.pdf \
+--pdf-engine=xelatex \
+-V mainfont="Noto Serif" \
+-V monofont="Noto Mono" \
+-V geometry:margin=1in \
+--toc \
+-N \
+--number-sections \
+--highlight-style=kate
